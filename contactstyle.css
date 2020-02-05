@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
-
+    /* text-align: center; */
 }
 
-body {
-    background-color: #dddddd;
-}
+ body {
+     background-color: #dddddd;
+ }
 
-.container {
+ .container {
     height: 100px;
     
     margin:0 auto;
@@ -17,6 +17,9 @@ body {
     background-color: #ffffff;
     
 }
+
+
+
 header {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -29,9 +32,10 @@ header {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
 
 }
+
 a {
     padding: 20px;
-    border-left: 2px #dddddd solid;
+    border-left: 2px solid #dddddd;
     text-decoration: none;
 }
 #ref {
@@ -39,12 +43,26 @@ a {
     float: right;
     margin-top: 25px;
     font-size: 15px;
-    border-left: 2px #dddddd solid;
+    border-left: 2px solid #dddddd;
     border-left: 0 none;
     
 }
 
-#about {
+
+
+#ref a:first-child {
+    border-left: 0 none;
+    
+}
+
+#area {
+    padding: 30px;
+    background-color: #ffffff;
+    width: 960px;
+    margin-left: 200px;
+}
+
+.contact {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     background-color: #ffffff;
@@ -58,27 +76,36 @@ a {
     border-color: #dddddd;
 }
 
-.area {
-    padding: 30px;
-    background-color: #ffffff;
-    width: 960px;
-    margin-left: 200px;
+input[type=text], select {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
-img {
-    margin: 20px 10px 20px 10px;
-    float: left;
-
+input#message {
+    padding-bottom: 200px;
 }
-
-#ref a:first-child {
-    border-left: 0 none;
+.name {
+    margin-top: 30px;
 }
-
-.full {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.8;
-    text-align: justify;
+input[type=submit] {
+    width: 10%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    margin: 8px;
 }
+/* 
+input-name[type=text] {
+    width: 70%;
+    padding: 7px 15px;
+    margin: 8px;
+    box-sizing: border-box;
+    
+} */
 
 footer {
     /* padding: 20px;*/

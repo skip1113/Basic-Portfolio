@@ -17,6 +17,7 @@ body {
     background-color: #ffffff;
     
 }
+
 header {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -29,9 +30,10 @@ header {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
 
 }
+
 a {
     padding: 20px;
-    border-left: 2px #dddddd solid;
+    border-left: 2px solid grey;
     text-decoration: none;
 }
 #ref {
@@ -39,46 +41,57 @@ a {
     float: right;
     margin-top: 25px;
     font-size: 15px;
-    border-left: 2px #dddddd solid;
+    border-left: 2px solid #dddddd;
     border-left: 0 none;
     
 }
 
-#about {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-    background-color: #ffffff;
-    font-size: 30px;
-    font-weight: bold;
-    clear: both;
-    padding-bottom: 20px;
-    
-    border-bottom-style: solid;
-    margin-right: 40px;
-    border-color: #dddddd;
-}
 
-.area {
-    padding: 30px;
-    background-color: #ffffff;
-    width: 960px;
-    margin-left: 200px;
-}
-img {
-    margin: 20px 10px 20px 10px;
-    float: left;
-
-}
 
 #ref a:first-child {
     border-left: 0 none;
 }
 
-.full {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.8;
-    text-align: justify;
+#area {
+    padding: 30px;
+    background-color: #ffffff;
+    width: 960px;
+    margin-left: 200px;
 }
+
+.portfolio {
+    
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #4aaaa5;
+        background-color: #ffffff;
+        font-size: 30px;
+        font-weight: bold;
+        clear: both;
+        padding-bottom: 20px;
+        
+        border-bottom-style: solid;
+        margin-right: 40px;
+        border-color: #dddddd;
+    }
+    .left {
+        
+        margin-top: 20px;
+        
+    }
+
+    .right {
+        margin-top: 20px;
+        
+        
+    }
+
+    
+    .bottom {
+        margin-top: 20px;
+        
+    }   
+
+
 
 footer {
     /* padding: 20px;*/
